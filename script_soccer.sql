@@ -1,12 +1,16 @@
---restricciones en los catalogos
+ï»¿--restricciones en los catalogos
 /*  
-1. Un equipo no puede tener menos de 11 jugadores ni más de 22 jugadores registrados.(-)
+1. Un equipo no puede tener menos de 11 jugadores ni mï¿½s de 22 jugadores registrados.(-)
 2. Las fechas de inicio y fin de la Liga deben de ser reales (no puede ser la fecha de inicio mayor a la fecha final de la liga). (-)
 3. Por defecto el campo enabled debe de estar en 1, y por defecto las fechas de las ligas toman la fecha actual del registro. (-)
-4. Ningún campo debe de ser nulo. (-)
+4. Ningï¿½n campo debe de ser nulo. (-)
 5. Relaciona la tabla de Equipos con la tabla de Ligas de muchos a muchos. (-)
-6. Valida los nombres (no pueden tener menos de 2 letras), tanto para ligas, equipos y países. (-)
+6. Valida los nombres (no pueden tener menos de 2 letras), tanto para ligas, equipos y paï¿½ses. (-)
 */
+CREATE DATABASE Soccer;
+GO
+USE Soccer;
+GO
 
 Create table League(
 ID int identity(1,1) Primary Key,
