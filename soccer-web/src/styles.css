@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+nav a { margin-right: 0.25rem; }
+form { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; align-items: center; }
+input, select, button { padding: 0.35rem 0.5rem; }
